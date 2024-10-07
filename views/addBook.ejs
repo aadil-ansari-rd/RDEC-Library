@@ -1,0 +1,54 @@
+<%- include('./base/header') %>
+    <div class="container my-3 bg-primary rounded" style="height: 5rem;">
+        <div class="p-3 text-center text-white">
+            <h2>Add a new book</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class=" col bg-light p-3" style="border: 1px;">
+                <form action="/book/added" method="post" enctype="multipart/form-data">
+                    <div class="my-2">
+                        <label for="form-label">Add book image</label>
+                        <input type="file" name="bookImage" class="form-control" id="">
+                    </div>
+                    <div class="my-2">
+                        <label for="form-label">Book Title </label>
+                        <input type="text" name="bookTitle" class="form-control" id="">
+                    </div>
+                    <div class="my-2">
+                        <label for="form-label">Author Name</label>
+                        <input type="text" name="authorName" class="form-control" id="">
+                    </div>
+                    <div class="my-2">
+                        <label for="form-label">Publicaton House</label>
+                        <input type="text" name="publicationHouse" class="form-control" id="">
+                    </div>
+                    <div class="my-2">
+                        <label for="form-label">ISBN No</label>
+                        <input type="text" name="isbnNo" class="form-control" id="">
+                    </div>
+                    <div class="my-2">
+                        <label for="form-label">Price</label>
+                        <input type="text" name="price" class="form-control" id="">
+                    </div>
+                    <div class="my-2">
+                        <label for="form-label">Language</label>
+                        <select class="form-select" name="language" aria-label="Default select example">
+                            <option selected>Choose Language</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="English">English</option>
+
+                        </select>
+                    </div>
+                    <input type="submit" class="btn btn-primary w-100 my-3" name="" value="Add Book" id="">
+
+                </form>
+
+
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <%- include('./base/footer') %>
