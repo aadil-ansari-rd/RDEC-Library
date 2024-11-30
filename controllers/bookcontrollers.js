@@ -22,7 +22,7 @@ async function bookAdded(req, res) {
 async function getBooks(req, res) {
     try {
         let books = await Book.find({});
-        res.render('bookLibrary', { books: books });
+        res.render('bookLibraryS', { books: books });
     } catch (err) {
         console.log(err.message);
     }
@@ -71,10 +71,12 @@ async function deleteBook(req, res) {
         console.log(err.message);
     }
 }
+
 module.exports = {
     bookAdded,
     getBooks,
     getEditPage,
     bookEdit,
-    deleteBook
+    deleteBook,
+    
 }

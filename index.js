@@ -1,12 +1,15 @@
 const express = require('express');
 const connection = require('./connecton');
+const signupLogin = require('./routes/signupLogin');
 const book = require('./routes/book')
 const path = require('path')
 
 connection();
 const app = express();
 
+app.use(signupLogin);
 app.use(book);
+
 app.set('view engine', 'ejs');
 app.set('views', path.resolve('./views'));
 

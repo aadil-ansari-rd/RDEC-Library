@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer');
-const bookcontroller = require('../controllers/bookcontrollers')
+const bookcontroller = require('../controllers/bookcontrollers');
 
 const router = express.Router();
 router.use(express.urlencoded({extended:false}));
@@ -36,8 +36,14 @@ router.post('/book/edit/:id',upload.single('bookImage'), (req,res)=>{
     bookcontroller.bookEdit(req,res);
 })
 
+router.get('/login',(req,res)=>{
+    res.render('login');
+})
+
 router.get('/delete/:id',(req,res)=>{
     bookcontroller.deleteBook(req,res);
 })
+
+
 
 module.exports = router;
