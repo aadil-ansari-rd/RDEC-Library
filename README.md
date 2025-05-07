@@ -24,7 +24,7 @@ This is a Node.js-based full-stack web application following the **MVC (Model-Vi
    ```bash
    git clone https://github.com/aadil-ansari-rd/your-repo-name.git
    cd your-repo-name
-````
+   ````
 
 2. Install dependencies:
 
