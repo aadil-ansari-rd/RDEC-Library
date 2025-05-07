@@ -6,43 +6,6 @@
 This is a Node.js-based full-stack web application following the **MVC (Model-View-Controller)** design pattern. The project includes routing, database connectivity, dynamic views, and modularized code structure.
 
 
-
-
-
-
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js and npm installed
-- MongoDB installed locally or use MongoDB Atlas
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aadil-ansari-rd/your-repo-name.git
-   cd your-repo-name
-   ````
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Set up your environment:
-
-   * Update MongoDB connection string in `connecton.js`
-
-
-4. Run the server:
-
-   ```bash
-   node index.js
-   ```
-
 ---
 
 ## ⚙️ Technologies Used
