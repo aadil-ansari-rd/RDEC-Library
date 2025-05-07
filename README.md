@@ -1,30 +1,15 @@
 
 
-```markdown
+
 # 🌐 Node.js Web Application – MVC Architecture
 
 This is a Node.js-based full-stack web application following the **MVC (Model-View-Controller)** design pattern. The project includes routing, database connectivity, dynamic views, and modularized code structure.
 
----
 
-## 🗂️ Project Structure
 
-```
 
-project-root/
-├── controllers/        # Logic for handling requests
-├── models/             # Database models/schemas
-├── routes/             # Route definitions
-├── views/              # Frontend views (EJS, Pug, etc.)
-├── node\_modules/       # Dependencies
-├── .gitignore          # Files/folders to ignore in Git
-├── connecton.js        # Database connection file
-├── index.js            # Entry point of the app
-├── package.json        # Project metadata and scripts
 
-````
 
----
 
 ## 🚀 Getting Started
 
@@ -100,7 +85,3 @@ GitHub: [aadil-ansari-rd](https://github.com/aadil-ansari-rd)
 
 This project is for educational purposes only.
 
-```
-
-Let me know if you're using a specific template engine (like EJS, Pug, or Handlebars), and I’ll tailor the README further.
-```
